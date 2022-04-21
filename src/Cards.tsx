@@ -36,7 +36,7 @@ const cardData: ICard[] = [
     },
     {
         title: "accessories",
-        image: 'Accessories.JPG',
+        image: 'Accessories.jpg',
         link: 'all',
     },
     {
