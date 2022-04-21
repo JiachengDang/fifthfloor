@@ -16,32 +16,32 @@ const BASE_URL = "https://fifth-floor-official.myshopify.com/collections/"
 const cardData: ICard[] = [
     {
         title: "new in",
-        image: "/new_in.jpg",
+        image: "new_in.jpg",
         link: "new-stuff",
     },
     {
         title: "women",
-        image: "/Women.jpg",
+        image: "Women.jpg",
         link: "womens",
     },
     {
         title: "men",
-        image: '/Men.jpg',
+        image: 'Men.jpg',
         link: "mens",
     },
     {
         title: "brands",
-        image: '/Brands.jpg',
+        image: 'Brands.jpg',
         link: "grkc",
     },
     {
         title: "accessories",
-        image: '/accessories.jpg',
+        image: 'accessories.jpg',
         link: 'all',
     },
     {
         title: "everything else",
-        image: '/everything_else.jpg',
+        image: 'everything_else.jpg',
         link: 'all',
     }
 

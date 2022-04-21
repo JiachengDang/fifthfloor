@@ -2,7 +2,7 @@
   "name": "fifth-floor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.fifthfloors.com/",
+  "homepage": "https://www.fifthfloors.com/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.14.1",
