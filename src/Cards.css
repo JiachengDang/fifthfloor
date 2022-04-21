@@ -1,0 +1,54 @@
+.cards-container {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.card-container {
+    width: 100%;
+    min-width: 350px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.card-image {
+    display: block;
+    height: 670px;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: 50% 20%;
+
+
+}
+
+.card-title {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .4s ease 0s;
+    background-color: rgba(255, 255, 111);
+}
+
+.card-container:hover .card-overlay {
+    opacity: 1;
+}
