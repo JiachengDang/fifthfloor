@@ -8,7 +8,7 @@ function App() {
       <div id="home"
         className='home-banner'>
         <div className="title">fifth floor</div>
-        <div className="nav-bar" >Ififth flooII</div>
+
       </div>
       <Cards />
     </div>

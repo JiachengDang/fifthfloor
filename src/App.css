@@ -4,13 +4,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/public/cover_image.jpg")
+  background-image: url("/public/cover_image.jpg");
+  position: relative;
+
 }
 
 .title {
+  position: fixed;
+  top: 25%;
+  right: 56%;
   text-align: center;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 6vw;
   color: white;
   line-height: 615px;
   text-transform: uppercase;
